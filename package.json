@@ -1,0 +1,16 @@
+{
+  "name": "hungrybot",
+  "version": "1.0.0",
+  "description": "less than 10 requests per day.",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "nodemon scrape.js"
+  },
+  "author": "kabirpathak",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2"
+  }
+}
