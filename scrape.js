@@ -40,17 +40,6 @@ exports.scrape = function(url, website) {
             break;
         }
 
-        //hackerearth
-        // const html = response.data;
-        // console.log(html);
-        // const $ = cheerio.load(html);
-        // // console.log($);
-        // $('.contest-ratings.item', html).each(function() {
-        //     console.log('inside');
-        // })
-        // // console.log(current_rating);
-        // // console.log(max_rating);
-
         console.log(current_rating);
 
         return [current_rating, max_rating];
