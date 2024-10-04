@@ -5,8 +5,8 @@ const express = require('express')
 
 const app = express()
 const codechef_url = 'https://www.codechef.com/users/kabirpathak';
-const hackerrank_url = 'https://www.hackerrank.com/rest/hackers/TARUN_V_REDDY/rating_histories_elo';
-const hackerearth_url = 'https://www.hackerearth.com/@prashantpokhriyal/';
+const hackerrank_url = 'https://www.hackerrank.com/rest/hackers/kabirpathak/rating_histories_elo';
+const hackerearth_url = 'https://www.hackerearth.com/@kabirpathak/';
 
 
 exports.scrape = function(url, website) {
